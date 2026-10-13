@@ -1,26 +1,29 @@
-# Hi, I'm Harwyn Lance Arabi
+# Harwyn Lance Arabi — Portfolio
+Dark, responsive portfolio built with HTML, CSS, and vanilla JavaScript.
 
-🎓 BS Computer Engineering student at ICCT Colleges – Cainta  
-💻 Interested in software development, IT, and embedded systems
+## Files
+- `index.html` — portfolio content
+- `style.css` — layout, animations, transitions
+- `script.js` — mobile menu, scroll reveals, reading progress, active nav link, click sounds with a mute toggle, copy-email button
+- `assets/profile.jpg` — portrait
+- `assets/cal2hub-logo.jpg` — Cal2Hub logo
+- `assets/neurocomm-board.png` — final NeuroComm prototype
 
-## About me
-I'm learning and building projects that combine software, electronics, and practical problem-solving. I’m especially interested in educational technology and assistive communication systems.
+## Sound
+Click sounds are generated in the browser with the Web Audio API, so there are no audio files to host. The speaker button in the header mutes them, and the choice is saved in the visitor's browser. To start muted for first-time visitors, set `DEFAULT_ON` to `false` at the top of `script.js`.
 
-## Technical skills
-- **Embedded systems:** Arduino, ESP32
-- **Web:** HTML, CSS
-- **Programming:** C++, Java, Python fundamentals
+## Accessibility
+- Animations, hover movement, and scroll reveals switch off when the visitor's system is set to reduce motion.
+- Keyboard users get a skip link, visible focus outlines, and a menu that closes with Escape.
+- Images have alt text, and the sound toggle reports its on/off state to screen readers.
 
-## Featured projects
+## Preview
+Open `index.html` in a browser, or use VS Code Live Server.
 
-### Cal2Hub App
-An offline interactive learning application designed for engineering students studying Integral Calculus.
+## GitHub Pages
+1. Create a repository named exactly `hxrwyn.github.io`.
+2. Upload all files and the `assets` folder to the repository root.
+3. Go to Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save.
+4. When deployment finishes, visit https://hxrwyn.github.io/
 
-### NeuroComm Board & NeuroComm Smart Necklace
-An embedded-based AAC assistive device concept designed to help people with aphasia express their daily needs.
-
-## Experience
-**Paperink** — Customer assistance, order taking, cashiering, and document printing.
-
-## Contact
-📧 harwynquintoarabi@gmail.com
+Before publishing, confirm that you're comfortable displaying your photo and email publicly.
